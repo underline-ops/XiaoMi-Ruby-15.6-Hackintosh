@@ -1,9 +1,6 @@
 # XiaoMi-Ruby-15.6 Hackintosh
 XiaoMi-Ruby-15.6 Hackintosh   (support Big Sur bata)
-## 作者 author
-在[XenOriginal 的 EFI ](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only)基础上进行修改,opencore升级到0.6.0-07-23,kext必要更新替换.
 
-In [XenOriginal EFI ](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only),opencore is upgraded to 0.6.0-07-23, and kext needs to be updated and replaced
 ## 配置 Computer configuration
 
 | 规格     | 详细信息                                   							  					|
@@ -40,7 +37,11 @@ In [XenOriginal EFI ](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only),
 
 在实操之前请自行[修改 SMbios 信息](https://github.com/corpnewt/GenSMBIOS) !
 
+可以仿冒HiDPI以获得最佳显示效果
+
 When upgrading with the Big Sur Bata version, please confirm that this OpenCORE version is compatible with it.
+
+You can impersonate hidpi for the best display
 
 ## 无法正常工作的硬件 Hardware that doesn't work
 1.自带触控板 (等待后续内核更新)
@@ -50,3 +51,7 @@ When upgrading with the Big Sur Bata version, please confirm that this OpenCORE 
 2.Internal Speaker (Intel® Smart Sound Technology)
 
 Laptops with Intel SST will not have anything connected through them (usually internal mic) work, as it is not supported. You can check with Device Manager on Windows.
+## 作者 author
+在[XenOriginal 的 EFI ](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only)基础上进行修改,opencore升级到0.6.0-07-23,kext必要更新替换.
+
+In [XenOriginal EFI ](https://github.com/XenOriginal/XiaoMi-Ruby-15.6-UMA-only),opencore is upgraded to 0.6.0-07-23, and kext needs to be updated and replaced
