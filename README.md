@@ -44,11 +44,10 @@ When upgrading with the Big Sur Bata version, please confirm that this OpenCORE 
 You can impersonate hidpi for the best display
 
 ## 无法正常工作的硬件 Hardware that doesn't work
-1.自带触控板 (等待后续内核更新)
-2.内置外放 
 
-1.touch panel (waiting for subsequent kernel update)
-2.Internal Speaker (Intel® Smart Sound Technology)
+1.内置外放 (尝试打SSDT补丁...)
+
+1.Internal Speaker (Intel® Smart Sound Technology)
 
 Laptops with Intel SST will not have anything connected through them (usually internal mic) work, as it is not supported. You can check with Device Manager on Windows.
 ## 以下为XenOriginal的相关教程说明~
